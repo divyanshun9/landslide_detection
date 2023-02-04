@@ -1,6 +1,3 @@
-# landslide4sense-solution
-
-_Video tutorial: https://youtu.be/1kl5RNPkz-g_
 
 ## Challenge Description
 
@@ -20,39 +17,3 @@ The Landslide4Sense dataset has three splits, training/validation/test, consisti
 
 All bands in the competition dataset are resized to the resolution of ~10m per pixel. The image patches have the size of 128 x 128 pixels and are labeled pixel-wise.
 
-**Download links:** [training](https://cloud.iarai.ac.at/index.php/s/KrwKngeXN7KjkFm) and [validation](https://cloud.iarai.ac.at/index.php/s/N6TacGsfr5nRNWr).
-
-![Logo](/image/Data_figure.png?raw=true "landslide_detection")
-
-The _Landslide4Sense_ dataset is structured as follows:
-
-```
-├── TrainData/
-│   ├── img/
-|   |   ├── image_1.h5
-|   |   ├── ...
-|   |   ├── image_3799.h5
-│   ├── mask/
-|   |   ├── mask_1.h5
-|   |   ├── ...
-|   |   ├── mask_3799.h5
-├── ValidData/
-|   ├── img/
-|   |   ├── image_1.h5
-|   |   ├── ...
-|   |   ├── image_245.h5
-├── TestData/
-    ├── img/
-        ├── image_1.h5
-        ├── ...
-        ├── image_800.h5
-```
-
-Note that the label files (mask files) are only accessible in the training set.
-
-Mapping classes used in the competition:
-
-| Class Number |  Class Name   | Class Code in the Label |
-| :----------: | :-----------: | :---------------------: |
-|      1       | Non-landslide |            0            |
-|      2       |   Landslide   |            1            |
