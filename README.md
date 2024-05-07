@@ -20,8 +20,6 @@ All bands in the competition dataset are resized to the resolution of ~10m per p
 
 ![Logo](/image/Data_figure.png?raw=true "landslide_detection")
 
-The _Landslide4Sense_ dataset is structured as follows:
-
 ```
 ├── TrainData/
 │   ├── img/
